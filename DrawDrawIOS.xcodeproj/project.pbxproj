@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C94E1DE3666B55C136DF98F9 /* libPods-DrawDrawIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F509CE4F40703E8C2B58AA77 /* libPods-DrawDrawIOS.a */; };
+		F7BAD3211EE12C1800606E5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3201EE12C1800606E5C /* main.m */; };
+		F7BAD3241EE12C1800606E5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3231EE12C1800606E5C /* AppDelegate.m */; };
+		F7BAD3271EE12C1800606E5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3261EE12C1800606E5C /* ViewController.m */; };
+		F7BAD32A1EE12C1800606E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BAD3281EE12C1800606E5C /* Main.storyboard */; };
+		F7BAD32C1EE12C1800606E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BAD32B1EE12C1800606E5C /* Assets.xcassets */; };
+		F7BAD32F1EE12C1800606E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BAD32D1EE12C1800606E5C /* LaunchScreen.storyboard */; };
+		F7BAD33A1EE12C1900606E5C /* DrawDrawIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3391EE12C1900606E5C /* DrawDrawIOSTests.m */; };
+		F7BAD3451EE12C1900606E5C /* DrawDrawIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3441EE12C1900606E5C /* DrawDrawIOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7BAD3361EE12C1900606E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7BAD3141EE12C1800606E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7BAD31B1EE12C1800606E5C;
+			remoteInfo = DrawDrawIOS;
+		};
+		F7BAD3411EE12C1900606E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7BAD3141EE12C1800606E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7BAD31B1EE12C1800606E5C;
+			remoteInfo = DrawDrawIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69CA3A86A772C5B3E11AB8E8 /* Pods-DrawDrawIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawDrawIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawDrawIOS/Pods-DrawDrawIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ED50E504D561B2663AEAA998 /* Pods-DrawDrawIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawDrawIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawDrawIOS/Pods-DrawDrawIOS.release.xcconfig"; sourceTree = "<group>"; };
+		F509CE4F40703E8C2B58AA77 /* libPods-DrawDrawIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawDrawIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BAD31C1EE12C1800606E5C /* DrawDrawIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawDrawIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BAD3201EE12C1800606E5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7BAD3221EE12C1800606E5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7BAD3231EE12C1800606E5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7BAD3251EE12C1800606E5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7BAD3261EE12C1800606E5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7BAD3291EE12C1800606E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7BAD32B1EE12C1800606E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7BAD32E1EE12C1800606E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7BAD3301EE12C1800606E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BAD3351EE12C1900606E5C /* DrawDrawIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawDrawIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BAD3391EE12C1900606E5C /* DrawDrawIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawDrawIOSTests.m; sourceTree = "<group>"; };
+		F7BAD33B1EE12C1900606E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BAD3401EE12C1900606E5C /* DrawDrawIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawDrawIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BAD3441EE12C1900606E5C /* DrawDrawIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawDrawIOSUITests.m; sourceTree = "<group>"; };
+		F7BAD3461EE12C1900606E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7BAD3191EE12C1800606E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94E1DE3666B55C136DF98F9 /* libPods-DrawDrawIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BAD3321EE12C1900606E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BAD33D1EE12C1900606E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21874D325F4EFBF1247DA4B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F509CE4F40703E8C2B58AA77 /* libPods-DrawDrawIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78D789DAEE1AB8D49A84691 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69CA3A86A772C5B3E11AB8E8 /* Pods-DrawDrawIOS.debug.xcconfig */,
+				ED50E504D561B2663AEAA998 /* Pods-DrawDrawIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7BAD3131EE12C1800606E5C = {
+			isa = PBXGroup;
+			children = (
+				F7BAD31E1EE12C1800606E5C /* DrawDrawIOS */,
+				F7BAD3381EE12C1900606E5C /* DrawDrawIOSTests */,
+				F7BAD3431EE12C1900606E5C /* DrawDrawIOSUITests */,
+				F7BAD31D1EE12C1800606E5C /* Products */,
+				A78D789DAEE1AB8D49A84691 /* Pods */,
+				21874D325F4EFBF1247DA4B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7BAD31D1EE12C1800606E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD31C1EE12C1800606E5C /* DrawDrawIOS.app */,
+				F7BAD3351EE12C1900606E5C /* DrawDrawIOSTests.xctest */,
+				F7BAD3401EE12C1900606E5C /* DrawDrawIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7BAD31E1EE12C1800606E5C /* DrawDrawIOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD3221EE12C1800606E5C /* AppDelegate.h */,
+				F7BAD3231EE12C1800606E5C /* AppDelegate.m */,
+				F7BAD3251EE12C1800606E5C /* ViewController.h */,
+				F7BAD3261EE12C1800606E5C /* ViewController.m */,
+				F7BAD3281EE12C1800606E5C /* Main.storyboard */,
+				F7BAD32B1EE12C1800606E5C /* Assets.xcassets */,
+				F7BAD32D1EE12C1800606E5C /* LaunchScreen.storyboard */,
+				F7BAD3301EE12C1800606E5C /* Info.plist */,
+				F7BAD31F1EE12C1800606E5C /* Supporting Files */,
+			);
+			path = DrawDrawIOS;
+			sourceTree = "<group>";
+		};
+		F7BAD31F1EE12C1800606E5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD3201EE12C1800606E5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7BAD3381EE12C1900606E5C /* DrawDrawIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD3391EE12C1900606E5C /* DrawDrawIOSTests.m */,
+				F7BAD33B1EE12C1900606E5C /* Info.plist */,
+			);
+			path = DrawDrawIOSTests;
+			sourceTree = "<group>";
+		};
+		F7BAD3431EE12C1900606E5C /* DrawDrawIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD3441EE12C1900606E5C /* DrawDrawIOSUITests.m */,
+				F7BAD3461EE12C1900606E5C /* Info.plist */,
+			);
+			path = DrawDrawIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7BAD31B1EE12C1800606E5C /* DrawDrawIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BAD3491EE12C1900606E5C /* Build configuration list for PBXNativeTarget "DrawDrawIOS" */;
+			buildPhases = (
+				2CC7FA9505B350AC305577F0 /* [CP] Check Pods Manifest.lock */,
+				F7BAD3181EE12C1800606E5C /* Sources */,
+				F7BAD3191EE12C1800606E5C /* Frameworks */,
+				F7BAD31A1EE12C1800606E5C /* Resources */,
+				44F219BCB0CFB26997F61002 /* [CP] Embed Pods Frameworks */,
+				1D383321C8B65FC88A236294 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawDrawIOS;
+			productName = DrawDrawIOS;
+			productReference = F7BAD31C1EE12C1800606E5C /* DrawDrawIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7BAD3341EE12C1900606E5C /* DrawDrawIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BAD34C1EE12C1900606E5C /* Build configuration list for PBXNativeTarget "DrawDrawIOSTests" */;
+			buildPhases = (
+				F7BAD3311EE12C1900606E5C /* Sources */,
+				F7BAD3321EE12C1900606E5C /* Frameworks */,
+				F7BAD3331EE12C1900606E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7BAD3371EE12C1900606E5C /* PBXTargetDependency */,
+			);
+			name = DrawDrawIOSTests;
+			productName = DrawDrawIOSTests;
+			productReference = F7BAD3351EE12C1900606E5C /* DrawDrawIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7BAD33F1EE12C1900606E5C /* DrawDrawIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BAD34F1EE12C1900606E5C /* Build configuration list for PBXNativeTarget "DrawDrawIOSUITests" */;
+			buildPhases = (
+				F7BAD33C1EE12C1900606E5C /* Sources */,
+				F7BAD33D1EE12C1900606E5C /* Frameworks */,
+				F7BAD33E1EE12C1900606E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7BAD3421EE12C1900606E5C /* PBXTargetDependency */,
+			);
+			name = DrawDrawIOSUITests;
+			productName = DrawDrawIOSUITests;
+			productReference = F7BAD3401EE12C1900606E5C /* DrawDrawIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7BAD3141EE12C1800606E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DrawDraw;
+				TargetAttributes = {
+					F7BAD31B1EE12C1800606E5C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F7BAD3341EE12C1900606E5C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7BAD31B1EE12C1800606E5C;
+					};
+					F7BAD33F1EE12C1900606E5C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7BAD31B1EE12C1800606E5C;
+					};
+				};
+			};
+			buildConfigurationList = F7BAD3171EE12C1800606E5C /* Build configuration list for PBXProject "DrawDrawIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7BAD3131EE12C1800606E5C;
+			productRefGroup = F7BAD31D1EE12C1800606E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7BAD31B1EE12C1800606E5C /* DrawDrawIOS */,
+				F7BAD3341EE12C1900606E5C /* DrawDrawIOSTests */,
+				F7BAD33F1EE12C1900606E5C /* DrawDrawIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7BAD31A1EE12C1800606E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BAD32F1EE12C1800606E5C /* LaunchScreen.storyboard in Resources */,
+				F7BAD32C1EE12C1800606E5C /* Assets.xcassets in Resources */,
+				F7BAD32A1EE12C1800606E5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BAD3331EE12C1900606E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BAD33E1EE12C1900606E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D383321C8B65FC88A236294 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawDrawIOS/Pods-DrawDrawIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC7FA9505B350AC305577F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44F219BCB0CFB26997F61002 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawDrawIOS/Pods-DrawDrawIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7BAD3181EE12C1800606E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BAD3271EE12C1800606E5C /* ViewController.m in Sources */,
+				F7BAD3241EE12C1800606E5C /* AppDelegate.m in Sources */,
+				F7BAD3211EE12C1800606E5C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BAD3311EE12C1900606E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BAD33A1EE12C1900606E5C /* DrawDrawIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BAD33C1EE12C1900606E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BAD3451EE12C1900606E5C /* DrawDrawIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7BAD3371EE12C1900606E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7BAD31B1EE12C1800606E5C /* DrawDrawIOS */;
+			targetProxy = F7BAD3361EE12C1900606E5C /* PBXContainerItemProxy */;
+		};
+		F7BAD3421EE12C1900606E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7BAD31B1EE12C1800606E5C /* DrawDrawIOS */;
+			targetProxy = F7BAD3411EE12C1900606E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7BAD3281EE12C1800606E5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7BAD3291EE12C1800606E5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7BAD32D1EE12C1800606E5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7BAD32E1EE12C1800606E5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7BAD3471EE12C1900606E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7BAD3481EE12C1900606E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7BAD34A1EE12C1900606E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CA3A86A772C5B3E11AB8E8 /* Pods-DrawDrawIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawDrawIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7BAD34B1EE12C1900606E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED50E504D561B2663AEAA998 /* Pods-DrawDrawIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawDrawIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7BAD34D1EE12C1900606E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawDrawIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawDrawIOS.app/DrawDrawIOS";
+			};
+			name = Debug;
+		};
+		F7BAD34E1EE12C1900606E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawDrawIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawDrawIOS.app/DrawDrawIOS";
+			};
+			name = Release;
+		};
+		F7BAD3501EE12C1900606E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawDrawIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawDrawIOS;
+			};
+			name = Debug;
+		};
+		F7BAD3511EE12C1900606E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawDrawIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawDrawIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7BAD3171EE12C1800606E5C /* Build configuration list for PBXProject "DrawDrawIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BAD3471EE12C1900606E5C /* Debug */,
+				F7BAD3481EE12C1900606E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BAD3491EE12C1900606E5C /* Build configuration list for PBXNativeTarget "DrawDrawIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BAD34A1EE12C1900606E5C /* Debug */,
+				F7BAD34B1EE12C1900606E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7BAD34C1EE12C1900606E5C /* Build configuration list for PBXNativeTarget "DrawDrawIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BAD34D1EE12C1900606E5C /* Debug */,
+				F7BAD34E1EE12C1900606E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7BAD34F1EE12C1900606E5C /* Build configuration list for PBXNativeTarget "DrawDrawIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BAD3501EE12C1900606E5C /* Debug */,
+				F7BAD3511EE12C1900606E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7BAD3141EE12C1800606E5C /* Project object */;
+}
