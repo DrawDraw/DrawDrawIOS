@@ -503,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawDrawIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawDrawIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -586,6 +588,7 @@
 				F7BAD34B1EE12C1900606E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7BAD34C1EE12C1900606E5C /* Build configuration list for PBXNativeTarget "DrawDrawIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +597,7 @@
 				F7BAD34E1EE12C1900606E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7BAD34F1EE12C1900606E5C /* Build configuration list for PBXNativeTarget "DrawDrawIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +606,7 @@
 				F7BAD3511EE12C1900606E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
