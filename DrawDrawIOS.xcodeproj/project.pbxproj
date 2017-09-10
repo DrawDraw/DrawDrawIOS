@@ -234,7 +234,8 @@
 				TargetAttributes = {
 					F7BAD31B1EE12C1800606E5C = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 2ARNJY38FW;
+						ProvisioningStyle = Manual;
 					};
 					F7BAD3341EE12C1900606E5C = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -502,11 +503,15 @@
 			baseConfigurationReference = 69CA3A86A772C5B3E11AB8E8 /* Pods-DrawDrawIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yahoo iOS Developer (8S8F4HG822)";
+				DEVELOPMENT_TEAM = 2ARNJY38FW;
 				INFOPLIST_FILE = DrawDrawIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "89c1a4c0-d336-450c-98ce-9c030e07058a";
+				PROVISIONING_PROFILE_SPECIFIER = YahooIPhoneApps;
 			};
 			name = Debug;
 		};
@@ -515,11 +520,15 @@
 			baseConfigurationReference = ED50E504D561B2663AEAA998 /* Pods-DrawDrawIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yahoo iOS Developer (8S8F4HG822)";
+				DEVELOPMENT_TEAM = 2ARNJY38FW;
 				INFOPLIST_FILE = DrawDrawIOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DrawDraw.DrawDrawIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "89c1a4c0-d336-450c-98ce-9c030e07058a";
+				PROVISIONING_PROFILE_SPECIFIER = YahooIPhoneApps;
 			};
 			name = Release;
 		};
