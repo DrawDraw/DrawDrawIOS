@@ -12,6 +12,8 @@
 		F73D6A5D1F652353003DD5CF /* DDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73D6A5B1F652353003DD5CF /* DDLoginViewController.xib */; };
 		F73D6A611F652386003DD5CF /* DDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D6A5F1F652386003DD5CF /* DDMainViewController.m */; };
 		F73D6A621F652386003DD5CF /* DDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73D6A601F652386003DD5CF /* DDMainViewController.xib */; };
+		F73D6A661F65244C003DD5CF /* DDDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D6A641F65244C003DD5CF /* DDDrawViewController.m */; };
+		F73D6A671F65244C003DD5CF /* DDDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73D6A651F65244C003DD5CF /* DDDrawViewController.xib */; };
 		F7BAD3211EE12C1800606E5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3201EE12C1800606E5C /* main.m */; };
 		F7BAD3241EE12C1800606E5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3231EE12C1800606E5C /* AppDelegate.m */; };
 		F7BAD32C1EE12C1800606E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BAD32B1EE12C1800606E5C /* Assets.xcassets */; };
@@ -47,6 +49,9 @@
 		F73D6A5E1F652386003DD5CF /* DDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainViewController.h; sourceTree = "<group>"; };
 		F73D6A5F1F652386003DD5CF /* DDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainViewController.m; sourceTree = "<group>"; };
 		F73D6A601F652386003DD5CF /* DDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMainViewController.xib; sourceTree = "<group>"; };
+		F73D6A631F65244C003DD5CF /* DDDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDrawViewController.h; sourceTree = "<group>"; };
+		F73D6A641F65244C003DD5CF /* DDDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDrawViewController.m; sourceTree = "<group>"; };
+		F73D6A651F65244C003DD5CF /* DDDrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDDrawViewController.xib; sourceTree = "<group>"; };
 		F7BAD31C1EE12C1800606E5C /* DrawDrawIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawDrawIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BAD3201EE12C1800606E5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7BAD3221EE12C1800606E5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +127,9 @@
 				F73D6A5E1F652386003DD5CF /* DDMainViewController.h */,
 				F73D6A5F1F652386003DD5CF /* DDMainViewController.m */,
 				F73D6A601F652386003DD5CF /* DDMainViewController.xib */,
+				F73D6A631F65244C003DD5CF /* DDDrawViewController.h */,
+				F73D6A641F65244C003DD5CF /* DDDrawViewController.m */,
+				F73D6A651F65244C003DD5CF /* DDDrawViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 			files = (
 				F73D6A621F652386003DD5CF /* DDMainViewController.xib in Resources */,
 				F7BAD32F1EE12C1800606E5C /* LaunchScreen.storyboard in Resources */,
+				F73D6A671F65244C003DD5CF /* DDDrawViewController.xib in Resources */,
 				F7BAD32C1EE12C1800606E5C /* Assets.xcassets in Resources */,
 				F73D6A5D1F652353003DD5CF /* DDLoginViewController.xib in Resources */,
 			);
@@ -376,6 +385,7 @@
 			files = (
 				F73D6A611F652386003DD5CF /* DDMainViewController.m in Sources */,
 				F7BAD3241EE12C1800606E5C /* AppDelegate.m in Sources */,
+				F73D6A661F65244C003DD5CF /* DDDrawViewController.m in Sources */,
 				F73D6A5C1F652353003DD5CF /* DDLoginViewController.m in Sources */,
 				F7BAD3211EE12C1800606E5C /* main.m in Sources */,
 			);

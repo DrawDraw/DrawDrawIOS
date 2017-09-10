@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "DDLoginViewController.h"
 #import "DDMainViewController.h"
+#import "DDDrawViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,7 @@
 
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    DDMainViewController *mainVC = [[DDMainViewController alloc] init];
+    DDDrawViewController *mainVC = [[DDDrawViewController alloc] init];
 
     self.window.rootViewController = mainVC;
     [self.window makeKeyWindow];
