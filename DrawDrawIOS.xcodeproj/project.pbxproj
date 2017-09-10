@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C94E1DE3666B55C136DF98F9 /* libPods-DrawDrawIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F509CE4F40703E8C2B58AA77 /* libPods-DrawDrawIOS.a */; };
+		F73D6A5C1F652353003DD5CF /* DDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D6A5A1F652353003DD5CF /* DDLoginViewController.m */; };
+		F73D6A5D1F652353003DD5CF /* DDLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73D6A5B1F652353003DD5CF /* DDLoginViewController.xib */; };
+		F73D6A611F652386003DD5CF /* DDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D6A5F1F652386003DD5CF /* DDMainViewController.m */; };
+		F73D6A621F652386003DD5CF /* DDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73D6A601F652386003DD5CF /* DDMainViewController.xib */; };
 		F7BAD3211EE12C1800606E5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3201EE12C1800606E5C /* main.m */; };
 		F7BAD3241EE12C1800606E5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3231EE12C1800606E5C /* AppDelegate.m */; };
 		F7BAD3271EE12C1800606E5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD3261EE12C1800606E5C /* ViewController.m */; };
@@ -39,6 +43,12 @@
 		69CA3A86A772C5B3E11AB8E8 /* Pods-DrawDrawIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawDrawIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawDrawIOS/Pods-DrawDrawIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED50E504D561B2663AEAA998 /* Pods-DrawDrawIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawDrawIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawDrawIOS/Pods-DrawDrawIOS.release.xcconfig"; sourceTree = "<group>"; };
 		F509CE4F40703E8C2B58AA77 /* libPods-DrawDrawIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawDrawIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D6A591F652353003DD5CF /* DDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLoginViewController.h; sourceTree = "<group>"; };
+		F73D6A5A1F652353003DD5CF /* DDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLoginViewController.m; sourceTree = "<group>"; };
+		F73D6A5B1F652353003DD5CF /* DDLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDLoginViewController.xib; sourceTree = "<group>"; };
+		F73D6A5E1F652386003DD5CF /* DDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainViewController.h; sourceTree = "<group>"; };
+		F73D6A5F1F652386003DD5CF /* DDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainViewController.m; sourceTree = "<group>"; };
+		F73D6A601F652386003DD5CF /* DDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMainViewController.xib; sourceTree = "<group>"; };
 		F7BAD31C1EE12C1800606E5C /* DrawDrawIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawDrawIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BAD3201EE12C1800606E5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7BAD3221EE12C1800606E5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +110,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F73D6A521F6522B4003DD5CF /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				F73D6A531F6522B4003DD5CF /* ViewControllers */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		F73D6A531F6522B4003DD5CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F73D6A591F652353003DD5CF /* DDLoginViewController.h */,
+				F73D6A5A1F652353003DD5CF /* DDLoginViewController.m */,
+				F73D6A5B1F652353003DD5CF /* DDLoginViewController.xib */,
+				F73D6A5E1F652386003DD5CF /* DDMainViewController.h */,
+				F73D6A5F1F652386003DD5CF /* DDMainViewController.m */,
+				F73D6A601F652386003DD5CF /* DDMainViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		F7BAD3131EE12C1800606E5C = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +156,7 @@
 		F7BAD31E1EE12C1800606E5C /* DrawDrawIOS */ = {
 			isa = PBXGroup;
 			children = (
+				F73D6A521F6522B4003DD5CF /* UILayer */,
 				F7BAD3221EE12C1800606E5C /* AppDelegate.h */,
 				F7BAD3231EE12C1800606E5C /* AppDelegate.m */,
 				F7BAD3251EE12C1800606E5C /* ViewController.h */,
@@ -274,8 +306,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73D6A621F652386003DD5CF /* DDMainViewController.xib in Resources */,
 				F7BAD32F1EE12C1800606E5C /* LaunchScreen.storyboard in Resources */,
 				F7BAD32C1EE12C1800606E5C /* Assets.xcassets in Resources */,
+				F73D6A5D1F652353003DD5CF /* DDLoginViewController.xib in Resources */,
 				F7BAD32A1EE12C1800606E5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +384,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7BAD3271EE12C1800606E5C /* ViewController.m in Sources */,
+				F73D6A611F652386003DD5CF /* DDMainViewController.m in Sources */,
 				F7BAD3241EE12C1800606E5C /* AppDelegate.m in Sources */,
+				F73D6A5C1F652353003DD5CF /* DDLoginViewController.m in Sources */,
 				F7BAD3211EE12C1800606E5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
