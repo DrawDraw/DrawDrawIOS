@@ -6,10 +6,12 @@
 //  Copyright © 2017 DrawDraw. All rights reserved.
 //
 
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import "AppDelegate.h"
 #import "DDLoginViewController.h"
 #import "DDMainViewController.h"
 #import "DDDrawViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,12 +19,25 @@
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+
+    BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                                  openURL:url
+                                                        sourceApplication:sourceApplication
+                                                               annotation:annotation
+                    ];
+        // Add any custom logic here.
+    return handled;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    DDDrawViewController *mainVC = [[DDDrawViewController alloc] init];
+    DDLoginViewController *mainVC = [[DDLoginViewController alloc] init];
 
     self.window.rootViewController = mainVC;
     [self.window makeKeyWindow];
