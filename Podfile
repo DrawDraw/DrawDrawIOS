@@ -9,5 +9,5 @@ target 'DrawDrawIOS' do
     pod 'AppDevKit', '~> 1.0'
     pod 'JSONModel', '~> 1.0'
     pod 'ReactiveCocoa', '~> 2.5'
-    pod 'SocketRocket'
+#    pod 'SocketRocket'
 end
