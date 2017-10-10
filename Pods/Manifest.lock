@@ -24,20 +24,17 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - SocketRocket (0.5.1)
 
 DEPENDENCIES:
   - AppDevKit (~> 1.0)
   - JSONModel (~> 1.0)
   - ReactiveCocoa (~> 2.5)
-  - SocketRocket
 
 SPEC CHECKSUMS:
   AppDevKit: 0c79f11369b300c28b7a79a449c32a6c0da7a6e1
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 25f49050e0f32205f74ed6e255376815a8cc77ac
+PODFILE CHECKSUM: d204e79ff3e705a17cc7c82af1d332a391164cef
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1
